@@ -1,0 +1,83 @@
+{
+  "version": "1",
+  "day": "2026-11-12",
+  "algorithm": {
+    "leaf": "sha256(JSON.stringify([id, agent_id, endpoint_id, kind, ok, http_status, latency_ms, observed_at]))",
+    "node": "sha256(hex(left) + hex(right)); odd node duplicated",
+    "order": "observed_at asc, id asc",
+    "signature": "ed25519(sha256hex(canonical_json({version, day, root, count, issuer}))) base64url"
+  },
+  "count": 83960,
+  "root": "db288cc53143c290a54c1ce188c8f6fe09c9e4c081fb41cfa74060645a13fed1",
+  "firstLeaf": "26828e68e76b5ebddc09d0c22f1ec4635049158b8f4959678dc1d0bb192cbd8c",
+  "lastLeaf": "4f18a58ca834f5f6ca254aa1bccd95a6efb6a2666c37af949a6d331314d862cf",
+  "issuedAt": "2026-11-13T00:34:24.794Z",
+  "issuer": "https://wellknown.network",
+  "signature": "eivl8iVcnU75b43TFf0KU99dcbpZeQuzAGu7TUMrOODp-aW1BLsC4uIM4t6_fMxGoIOoP_fXcFVymyOoyYNBAQ",
+  "keyId": "ed25519:ed0727963f243266",
+  "publicKey": "G5T88cf5J5GmJhmWKw9r0R4DlSch-h410kfQbYzD8b8",
+  "signedAt": "2026-11-13T00:34:24.790Z",
+  "signedFields": [
+    "version",
+    "day",
+    "root",
+    "count",
+    "issuer"
+  ],
+  "anchor": {
+    "log": "sigstore-rekor-v2",
+    "status": "anchored",
+    "logUrl": "https://log2025-1.rekor.sigstore.dev",
+    "logIndex": 196403436,
+    "entryId": "zxGZFVvd0FEmjR8WrFwMdcAJ9vtaY/QXf44Y1wUeP6A=:196403436",
+    "integratedAt": null,
+    "submittedAt": "2026-11-13T00:34:25.584Z",
+    "verifiedAt": "2026-11-13T00:34:30.223Z",
+    "timeClaim": "This log records no per-entry time. submittedAt and verifiedAt are Wellknown's clock, not the log's; the log vouches for inclusion at logIndex under the signed checkpoint, and for order relative to other entries, not for wall-clock time. An independent timestamp over the checkpoint is planned.",
+    "digest": "d779a9c5ac0bcc558c7e782e683282320e1381d259207c953c4faac6939aa485",
+    "signature": "MEYCIQDCIx6GXdSKcU8dE7M43Xq8/ViAciLWrhWCoFKkbIeZbAIhAOdsyBgh2yg8WlxgiBE9dk4q0u7uZS+YeetlR5LF10EA",
+    "keyDetails": "PKIX_ECDSA_P256_SHA_256",
+    "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEr/2GvjOcQuac9ewvPVNSMaBf2WltMU61XoIdKQV0nPfPwtVL06yUTTYazqsyNZh4AbY9ttdEvOOV8ScJCE+6gQ==",
+    "checkpoint": "log2025-1.rekor.sigstore.dev\n196403458\nSCzEWsJg1Imyr/I9zzqltU4sC/uvRyNJHXfXgdlGfkY=\n\n— log2025-1.rekor.sigstore.dev zxGZFUquQaXXDlm2cr3HsYSwakWYgakiuiygtDH5OcsDx6R3QeIpjDWU/vkJIIDJ69jlIEQWO8/89UBbyp7HNJrMBgc=\n— witness.navigli.sunlight.geomys.org o+AP4gAAAABq9lsVK2pTfTJ+J9NCZCV2wNXvU4ElEBMbmqJI7edESsfAWOfKAyEEqWDdgq4XpcusUFpFEy3ABtR2nYL0lt6k0LwZBQ==\n— krabbel.ct.ipng.ch SxDb2AAAAABq9lsVJ0pd4XZVhABKOKKh5b7A9iMNpVJml1M0VdQ6MXjlHB7R9V5jiosi1X0YMvP1rmlsj/vNt2DPxbHuLqaiB5esCw==\n— witness.stagemole.eu Z/euoAAAAABq9lsV9yP2mj7sADO4r/vRtwHus8wRxF2AjCFSkPzOhR5ojGID/pkJR/rGrVwOyucsHYbdj564tjK8ALm74eTIqXSaAQ==\n— staging.witness.transparency.goog/ring-any-bells LhqNyQAAAABq9lsVpXROP8DJx8Gs7LlK20CX8I5O4iMxGTz0vkWBGhiNjOwOXwPucrY4htLf8Yk1DXiONKfY4kLzj5h/2QzrD6G+Cw==\n",
+    "inclusionProof": {
+      "kind": "hashedrekord",
+      "logId": "zxGZFVvd0FEmjR8WrFwMdcAJ9vtaY/QXf44Y1wUeP6A=",
+      "hashes": [
+        "dbjVgvbRuWp9OwjHG38JRM9I/b0NDo/0QTBal3aa1s0=",
+        "xEKaApLrDm7B/Y5PAMVYKHu1DIYnBmKfN4CNg+I8/a4=",
+        "hh1t7WAdrLVB2gTtUYcNsR8jQJUyGrf+t9H7ElBQI6c=",
+        "4ZRSOMqKdBKA8mgjvVIHIXSiWbqFel2MG7LWE2fpwy8=",
+        "d1e/6DZLm+VJ6LnvLcTf89BvEoxRKKC2mGWvTGnHXvI=",
+        "vFDrFGLNNETu+e1iZT1Un0t7cVI3zp1oXkL5m9FzFJA=",
+        "CqCYVLFYQV6551Xuf/At8mUxB9nxv9gO9Xq2wgQhc7w=",
+        "414FU9oIqOoTBtTfLErRts3MckPdQeEc5YPzYXsPZ54=",
+        "QIA9D0hbPcy+rqyES+C40AJhPaW079qpe5bOXp3wpH0=",
+        "j4lpP7+92BP9J/M8h4qypcCKtse4pXbF4bG7OiMG/dU=",
+        "+9uIdqckH7V1NZ/weBPgrm5+HdoVPfItDYmPZomFThc=",
+        "nNfO2KhDjVvAikQAulbNthtHi0Edq/Cc+g8PvVsIBBY=",
+        "Bmhdgu3Wg6PIogg+LO/V+ehBvY1IyhWFwvBSbJnl5oo=",
+        "CT1DtzHR7FGspIqRCgrNgPaNNWIwvHjtxTCt4EnzbP4=",
+        "xVrkYelXNtjiI4La66rQVHPfx822mr5pj09T95JulFU=",
+        "PueCMKqOFAtysRySwsCVmwCCeymezjoMxvWYsemiIX8=",
+        "9NdgKDek6xelLoy25efxaSbzhPyrpQdhnPgLCqp0tho=",
+        "3bVw3ckO+4+0rKHbwkTClt0Eenv6DztCZLtXKSGJUHU=",
+        "dfIw5UpQDrySuhIKL/XbMVw0ZwWKPJUmYhf45oJW6bQ="
+      ],
+      "version": "0.0.2",
+      "logIndex": 196403436,
+      "rootHash": "SCzEWsJg1Imyr/I9zzqltU4sC/uvRyNJHXfXgdlGfkY=",
+      "treeSize": 196403458,
+      "canonicalizedBody": "eyJhcGlWZXJzaW9uIjoiMC4wLjIiLCJraW5kIjoiaGFzaGVkcmVrb3JkIiwic3BlYyI6eyJoYXNoZWRSZWtvcmRWMDAyIjp7ImRhdGEiOnsiYWxnb3JpdGhtIjoiU0hBMl8yNTYiLCJkaWdlc3QiOiIxM21weGF3THpGV01mbmd1YURLQ01nNFRnZEpaSUh5VlBFK3F4cE9hcElVPSJ9LCJzaWduYXR1cmUiOnsiY29udGVudCI6Ik1FWUNJUURDSXg2R1hkU0tjVThkRTdNNDNYcTgvVmlBY2lMV3JoV0NvRktrYkllWmJBSWhBT2RzeUJnaDJ5ZzhXbHhnaUJFOWRrNHEwdTd1WlMrWWVldGxSNUxGMTBFQSIsInZlcmlmaWVyIjp7ImtleURldGFpbHMiOiJQS0lYX0VDRFNBX1AyNTZfU0hBXzI1NiIsInB1YmxpY0tleSI6eyJyYXdCeXRlcyI6Ik1Ga3dFd1lIS29aSXpqMENBUVlJS29aSXpqMERBUWNEUWdBRXIvMkd2ak9jUXVhYzlld3ZQVk5TTWFCZjJXbHRNVTYxWG9JZEtRVjBuUGZQd3RWTDA2eVVUVFlhenFzeU5aaDRBYlk5dHRkRXZPT1Y4U2NKQ0UrNmdRPT0ifX19fX19"
+    },
+    "algorithm": {
+      "document": "canonical_json({version, day, root, count, issuer}) — sorted keys, no whitespace, UTF-8",
+      "digest": "sha256(document), hex",
+      "signature": "ECDSA P-256 over sha256(document), DER, base64 — the key published as anchor.publicKey (DER SPKI, base64)",
+      "log": "Sigstore Rekor v2 hashedrekord v0.0.2; entry leaf = sha256(0x00 || canonicalizedBody); inclusion proof per RFC 6962 against the checkpoint root"
+    },
+    "attempts": 1,
+    "error": null,
+    "note": "The canonical attestation document is in a public append-only log Wellknown does not operate. The anchor proves the document was included at logIndex under a checkpoint the log signed, and cannot be altered or removed without breaking that proof; verify by rebuilding the document from the attestation, hashing it, checking the inclusion proof against the checkpoint, and the checkpoint against the log's published key. See timeClaim for what the timestamps mean."
+  },
+  "note": "Deterministic root, stored when first published and signed by the issuer key; recompute from the observation rows to verify. Anchored in a public transparency log Wellknown does not operate (see anchor)."
+}
