@@ -1,0 +1,81 @@
+{
+  "version": "1",
+  "day": "2026-11-27",
+  "algorithm": {
+    "leaf": "sha256(JSON.stringify([id, agent_id, endpoint_id, kind, ok, http_status, latency_ms, observed_at]))",
+    "node": "sha256(hex(left) + hex(right)); odd node duplicated",
+    "order": "observed_at asc, id asc",
+    "signature": "ed25519(sha256hex(canonical_json({version, day, root, count, issuer}))) base64url"
+  },
+  "count": 83977,
+  "root": "604f86f1684be9f02741f6306d71630cb74b9ae09d8fe83c7221841be9ad6e4a",
+  "firstLeaf": "8eee8f3b74d6612d093381dfc3ee44c87fa0b783a8e9d1be1a2bad186f4f9dcc",
+  "lastLeaf": "e8ca23020b84ffb2542e0591bf352e64a0f0a3dae8729f4be96dec75ead61fed",
+  "issuedAt": "2026-11-28T00:34:59.772Z",
+  "issuer": "https://wellknown.network",
+  "signature": "fKdCyBDELsDNdO7RjqbYcKS0KgKRdtw2ut-YOUjKGBAqSwFWPSFct_Z45XlQHt08eI11zy8dod5VAdgrMTC7DQ",
+  "keyId": "ed25519:ed0727963f243266",
+  "publicKey": "G5T88cf5J5GmJhmWKw9r0R4DlSch-h410kfQbYzD8b8",
+  "signedAt": "2026-11-28T00:34:59.771Z",
+  "signedFields": [
+    "version",
+    "day",
+    "root",
+    "count",
+    "issuer"
+  ],
+  "anchor": {
+    "log": "sigstore-rekor-v2",
+    "status": "anchored",
+    "logUrl": "https://log2025-1.rekor.sigstore.dev",
+    "logIndex": 220388967,
+    "entryId": "zxGZFVvd0FEmjR8WrFwMdcAJ9vtaY/QXf44Y1wUeP6A=:220388967",
+    "integratedAt": null,
+    "submittedAt": "2026-11-28T00:35:00.807Z",
+    "verifiedAt": "2026-11-28T00:35:02.855Z",
+    "timeClaim": "This log records no per-entry time. submittedAt and verifiedAt are Wellknown's clock, not the log's; the log vouches for inclusion at logIndex under the signed checkpoint, and for order relative to other entries, not for wall-clock time. An independent timestamp over the checkpoint is planned.",
+    "digest": "633a4e9646c5067312c5e7f4a86b712cc7c1ae410774ad3aa68caa8ee0545e43",
+    "signature": "MEQCIDvtJqsCWeET0I52jkpbfIPuGxtNsm6oTa9XTbINp/1cAiBy1y+d3ZcCWQGCFXtHbTb7MhzKHVeQ7EfzIbxEtHyR8Q==",
+    "keyDetails": "PKIX_ECDSA_P256_SHA_256",
+    "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEr/2GvjOcQuac9ewvPVNSMaBf2WltMU61XoIdKQV0nPfPwtVL06yUTTYazqsyNZh4AbY9ttdEvOOV8ScJCE+6gQ==",
+    "checkpoint": "log2025-1.rekor.sigstore.dev\n220388974\nWti/pTdoWkVcJmpAbaVhOYd/FX+G7Q+4FdOMnzsv5kc=\n\n— log2025-1.rekor.sigstore.dev zxGZFRyhHyU1tctagj06nFAKVNSm4Wr5wU4qo+K/Xx9ukQvyq2TmFktdEXcSS6t5V2eF1xLHaAkzQ+5jymLOlyCAzgQ=\n— witness.navigli.sunlight.geomys.org o+AP4gAAAABrCiG2vSshDJVUyCPF27UPJgMp7tfap6+LsCnHVyI/thgOHNJ9nZUI5UhdbtFloWMzo+Mktyy1VsxoBBcWy3J36WQoDg==\n— witness.stagemole.eu Z/euoAAAAABrCiG23yV5XMGtAUl44qJb35MhlOq/9Epq4YUT2gDJHFIq9+lyX/KhljhkNr7Jd88ApyDz9BjP4HzIk3k04AoR/IV7DQ==\n— staging.witness.transparency.goog/ring-any-bells LhqNyQAAAABrCiG2Qnq9MgpWdGk6dyDxvecYaU9EZpmvs5JOVhYmTziFbPVUehEWaLtGprjDgmuhMJulL8e7h3+NBzIDXg/e/mzeAA==\n— krabbel.ct.ipng.ch SxDb2AAAAABrCiG2bAbEBkhGbzIJMaVlBa8qV2ZRbW/t1nQACZ8+TD6gHywmGaYAJfjr+/Umems2iH0ZoD2qRgPrxYQEcZMYIhefBg==\n",
+    "inclusionProof": {
+      "kind": "hashedrekord",
+      "logId": "zxGZFVvd0FEmjR8WrFwMdcAJ9vtaY/QXf44Y1wUeP6A=",
+      "hashes": [
+        "AgNic893/4TgVd7iKXTVw6XofiFJYTHUEYFUFSSE1jg=",
+        "UqM45n5Gyrm/onMPkrVEKNhYELJcP/c2ZQf2NNPxxbM=",
+        "O/rz9WGBNMs5z6gXG2VkAHYKLpE9pqjgFdkXtLZxOIg=",
+        "jbHEFX15GVq+y+0isNSc5d+tUtZ1EhTSVAQ3vNIFmHQ=",
+        "pQkiToaHutKxzIyRJyXqu+qXEMP5C+8KOKS0EonvoK0=",
+        "G9vXsVQmS7qzFqJ/8MSyK/I62uC8mkJQnzl6jKDBULk=",
+        "aJuk6QjegOzObT86Ftp9kcFPQtn4NO3Dt8LpXMZJcRQ=",
+        "Jm5yzu2etDK6C6YtWxliX6/4gX7jdJTobRaWO332Q4o=",
+        "ETC7WDYsxB/rZ6136pEU4MEyyPNr7MCOr+ByNsPYqx4=",
+        "KiHA6U1B+B5JTufAzNMIa9Yb9hLtERbgbkdCtSk0DXo=",
+        "Y4bGCwwkQrlG3aBbbwK28ZSRZCzhfnqR/WOA82AeP9c=",
+        "iTXBX2YPRdc17sK2sGPrdl1JLbpsnbsLt3PXsmldhiA=",
+        "UQyJjw9AzSJHHljPdTvDSxilascE/giW6vVivI7ygJE=",
+        "scrD4DKbje6RQV2EJcpvQIExE8zB4Tr5S95OhBYu+Fg=",
+        "AHYeUmg6LOtI9P5oklQMyIfP+dEyLyuQS4h7b3CkSvo=",
+        "zuvyeo6nBLfkRqBaWFAMq7VXg6REL/NZ8OodvslvLME=",
+        "dfIw5UpQDrySuhIKL/XbMVw0ZwWKPJUmYhf45oJW6bQ="
+      ],
+      "version": "0.0.2",
+      "logIndex": 220388967,
+      "rootHash": "Wti/pTdoWkVcJmpAbaVhOYd/FX+G7Q+4FdOMnzsv5kc=",
+      "treeSize": 220388974,
+      "canonicalizedBody": "eyJhcGlWZXJzaW9uIjoiMC4wLjIiLCJraW5kIjoiaGFzaGVkcmVrb3JkIiwic3BlYyI6eyJoYXNoZWRSZWtvcmRWMDAyIjp7ImRhdGEiOnsiYWxnb3JpdGhtIjoiU0hBMl8yNTYiLCJkaWdlc3QiOiJZenBPbGtiRkJuTVN4ZWYwcUd0eExNZkJya0VIZEswNnBveXFqdUJVWGtNPSJ9LCJzaWduYXR1cmUiOnsiY29udGVudCI6Ik1FUUNJRHZ0SnFzQ1dlRVQwSTUyamtwYmZJUHVHeHROc202b1RhOVhUYklOcC8xY0FpQnkxeStkM1pjQ1dRR0NGWHRIYlRiN01oektIVmVRN0VmeklieEV0SHlSOFE9PSIsInZlcmlmaWVyIjp7ImtleURldGFpbHMiOiJQS0lYX0VDRFNBX1AyNTZfU0hBXzI1NiIsInB1YmxpY0tleSI6eyJyYXdCeXRlcyI6Ik1Ga3dFd1lIS29aSXpqMENBUVlJS29aSXpqMERBUWNEUWdBRXIvMkd2ak9jUXVhYzlld3ZQVk5TTWFCZjJXbHRNVTYxWG9JZEtRVjBuUGZQd3RWTDA2eVVUVFlhenFzeU5aaDRBYlk5dHRkRXZPT1Y4U2NKQ0UrNmdRPT0ifX19fX19"
+    },
+    "algorithm": {
+      "document": "canonical_json({version, day, root, count, issuer}) — sorted keys, no whitespace, UTF-8",
+      "digest": "sha256(document), hex",
+      "signature": "ECDSA P-256 over sha256(document), DER, base64 — the key published as anchor.publicKey (DER SPKI, base64)",
+      "log": "Sigstore Rekor v2 hashedrekord v0.0.2; entry leaf = sha256(0x00 || canonicalizedBody); inclusion proof per RFC 6962 against the checkpoint root"
+    },
+    "attempts": 1,
+    "error": null,
+    "note": "The canonical attestation document is in a public append-only log Wellknown does not operate. The anchor proves the document was included at logIndex under a checkpoint the log signed, and cannot be altered or removed without breaking that proof; verify by rebuilding the document from the attestation, hashing it, checking the inclusion proof against the checkpoint, and the checkpoint against the log's published key. See timeClaim for what the timestamps mean."
+  },
+  "note": "Deterministic root, stored when first published and signed by the issuer key; recompute from the observation rows to verify. Anchored in a public transparency log Wellknown does not operate (see anchor)."
+}
